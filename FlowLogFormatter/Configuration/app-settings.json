@@ -1,0 +1,26 @@
+{
+  "StorageAccountName": "itprdinfraops",
+  "FlowLogsContainer": "insights-logs-networksecuritygroupflowevent",
+  "SASToken": "sp=rl&st=2022-07-09T19:36:36Z&se=2022-09-03T03:36:36Z&sip=71.215.82.37&spr=https&sv=2021-06-08&sr=c&sig=OsYuUBvvUMBO7jgnC2f6D1%2FzqbqPipo6fyE0vntXy24%3D",
+  "BlobNamePrefix": "resourceId=/SUBSCRIPTIONS/1E430BF3-4D81-4033-AF66-73C266013D30/RESOURCEGROUPS/IT-PRD-NETWORKING/PROVIDERS/MICROSOFT.NETWORK/NETWORKSECURITYGROUPS/NSG-PRD-SFTPACCESS-SCUS01",
+  "BlobNameSuffix": "/m=00/macAddress=000D3A739852/PT1H.json",
+  "TimeZoneConversion": "Central Standard Time",
+  "FlowProtocolNames": {
+    "T": "TCP",
+    "U": "UDP"
+  },
+  "FlowDirectionNames": {
+    "I": "Inbound",
+    "O": "Outbound"
+  },
+  "FlowDecisionNames": {
+    "A": "Allowed",
+    "D": "Denied"
+  },
+  "FlowStateNames": {
+    "C": "Continuing",
+    "B": "Begin",
+    "E": "End"
+  },
+  "LogOutput": "Csv"
+}
