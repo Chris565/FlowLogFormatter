@@ -2,7 +2,7 @@
   "StorageAccountName": "<your storage account resource name>",
   "FlowLogsContainer": "<the blob container where your flow logs are kept, typically: insights-logs-networksecuritygroupflowevent>",
   "SASToken": "<provisioned SAS token for your storage account, preferably with just read and list access>",
-  "BlobNamePrefix": "<the normal pattern is like this: resourceId=/SUBSCRIPTIONS/(subscription ID)/RESOURCEGROUPS/(resource group where your NSG exists)/PROVIDERS/MICROSOFT.NETWORK/NETWORKSECURITYGROUPS/(name of your resource group)",
+  "BlobNamePrefix": "<the normal pattern is like this: resourceId=/SUBSCRIPTIONS/(subscription ID)/RESOURCEGROUPS/(resource group where your NSG exists)/PROVIDERS/MICROSOFT.NETWORK/NETWORKSECURITYGROUPS/(name of your NSG)",
   "BlobNameSuffix": "/m=00/macAddress=(this only works with a single NIC at this time, so you have to put the value you see in the blob path here)/PT1H.json",
   "TimeZoneConversion": "<put the time zone ID here, such as: Central Standard Time>",
   "FlowProtocolNames": {
